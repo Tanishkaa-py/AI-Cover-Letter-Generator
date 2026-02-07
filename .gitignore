@@ -139,6 +139,9 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 .env
-backend/.env
+.env.*
+!.env.example
+
 node_modules/
 backend/node_modules/
+
